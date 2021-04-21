@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/purple_200"
+        android:padding="5dp"
+        android:text="this is a TextView"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:text="this is an EditText"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btTwoLines"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:text="this is a two lines Button"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/swAirplaneMode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_orange_light"
+        android:checked="true"
+        android:padding="5dp"
+        android:text="Airplane MODE"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbExample"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_blue_bright"
+        android:buttonTintMode="multiply"
+        android:checked="true"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="this is a CheckBox"
+        android:textSize="18sp" />
+
+    <ToggleButton
+        android:id="@+id/tbExample"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@color/teal_200"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOff="toggled OFF"
+        android:textOn="toggled ON"
+        android:textSize="24sp" />
+
+</LinearLayout>

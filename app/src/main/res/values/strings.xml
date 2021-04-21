@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Android Beginner App 01</string>
+    <string name="textAboutEms">android:ems или setEms(n) устанавливает ширину TextView в
+        соответствии с текстом букв n M независимо от фактического расширения текста и
+        размера текста. Но только если для параметра layout_width установлено значение wrap_content.
+        Другие значения layout_width переопределяют настройку ширины ems.
+        Добавление атрибута android:textSize определяет физическую ширину представления
+        для длины textSize * текста n M, указанного выше.</string>
 </resources>
