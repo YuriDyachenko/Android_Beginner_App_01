@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btVariousFragment"
+            android:id="@+id/button_various_fragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:text="VARIOUS" />
 
         <Button
-            android:id="@+id/btEditingFragment"
+            android:id="@+id/button_editing_fragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:text="EDITING" />
 
         <Button
-            android:id="@+id/btCalendarFragment"
+            android:id="@+id/button_calendar_fragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:text="CALENDAR &amp; EMS" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_calculator_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:text="CALCULATOR" />
+
     </LinearLayout>
 
     <ScrollView
-        android:id="@+id/container"
+        android:id="@+id/scroll_view_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
