@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tvSimple"
+        android:id="@+id/text_view_simple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/edSimple"
+        android:labelFor="@id/edit_text_simple"
         android:text="inputType = text"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/edSimple"
+        android:id="@+id/edit_text_simple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -25,16 +24,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvPersonName"
+        android:id="@+id/text_view_person_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etPersonName"
+        android:labelFor="@id/edit_text_person_name"
         android:text="inputType = textPersonName"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etPersonName"
+        android:id="@+id/edit_text_person_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,16 +42,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvPhone"
+        android:id="@+id/text_view_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etPhone"
+        android:labelFor="@id/edit_text_phone"
         android:text="inputType = phone"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etPhone"
+        android:id="@+id/edit_text_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -61,16 +60,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvNumberDecimal"
+        android:id="@+id/text_view_number_decimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etNumberDecimal"
+        android:labelFor="@id/edit_text_number_decimal"
         android:text="inputType = numberDecimal"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etNumberDecimal"
+        android:id="@+id/edit_text_number_decimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -79,16 +78,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvPassword"
+        android:id="@+id/text_view_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etPassword"
+        android:labelFor="@id/edit_text_password"
         android:text="inputType = textPassword"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/edit_text_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -97,16 +96,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvEmailAddress"
+        android:id="@+id/text_view_email_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/edEmailAddress"
+        android:labelFor="@id/edit_text_email_address"
         android:text="inputType = textEmailAddress"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/edEmailAddress"
+        android:id="@+id/edit_text_email_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -115,16 +114,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvPostalAddress"
+        android:id="@+id/text_view_postal_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etPostalAddress"
+        android:labelFor="@id/edit_text_postal_address"
         android:text="inputType = textPostalAddress"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etPostalAddress"
+        android:id="@+id/edit_text_postal_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -133,16 +132,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvDate"
+        android:id="@+id/text_view_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etDate"
+        android:labelFor="@id/edit_text_date"
         android:text="inputType = date"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etDate"
+        android:id="@+id/edit_text_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -151,16 +150,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvTime"
+        android:id="@+id/text_view_time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etTime"
+        android:labelFor="@id/edit_text_time"
         android:text="inputType = time"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etTime"
+        android:id="@+id/edit_text_time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -169,16 +168,16 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/tvMultiLine"
+        android:id="@+id/text_view_multiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:labelFor="@id/etMultiLine"
+        android:labelFor="@id/edit_text_multiLine"
         android:text="inputType = textMultiLine"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="12sp" />
 
     <EditText
-        android:id="@+id/etMultiLine"
+        android:id="@+id/edit_text_multiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"

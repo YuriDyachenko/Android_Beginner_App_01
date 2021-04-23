@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <CalendarView
-        android:id="@+id/calendarView"
+        android:id="@+id/calendar_view_example"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/tvEms"
+        android:id="@+id/text_view_ems"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -22,12 +21,12 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tvAboutEms"
+        android:id="@+id/text_view_about_ems"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:lineSpacingExtra="4sp"
-        android:text="@string/textAboutEms"
+        android:text="@string/text_about_ems"
         android:textColor="@color/cardview_dark_background"
         android:textSize="18sp" />
 
