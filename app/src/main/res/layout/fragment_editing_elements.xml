@@ -5,186 +5,198 @@
     android:layout_margin="5dp"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_view_simple"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_simple"
-        android:text="inputType = text"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/edit_text_simple"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_view_person_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_person_name"
-        android:text="inputType = textPersonName"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_simple"
+                android:text="inputType = text"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_person_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_phone"
-        android:text="inputType = phone"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_person_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_person_name"
+                android:text="inputType = textPersonName"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_person_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_number_decimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_number_decimal"
-        android:text="inputType = numberDecimal"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_phone"
+                android:text="inputType = phone"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_number_decimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_password"
-        android:text="inputType = textPassword"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_number_decimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_number_decimal"
+                android:text="inputType = numberDecimal"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_number_decimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_email_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_email_address"
-        android:text="inputType = textEmailAddress"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_password"
+                android:text="inputType = textPassword"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_email_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_postal_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_postal_address"
-        android:text="inputType = textPostalAddress"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_email_address"
+                android:text="inputType = textEmailAddress"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_postal_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_date"
-        android:text="inputType = date"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_postal_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_postal_address"
+                android:text="inputType = textPostalAddress"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_postal_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_time"
-        android:text="inputType = time"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_date"
+                android:text="inputType = date"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/text_view_multiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:labelFor="@id/edit_text_multiLine"
-        android:text="inputType = textMultiLine"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/text_view_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_time"
+                android:text="inputType = time"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/edit_text_multiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:lines="3"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_text_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/text_view_multiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/edit_text_multiLine"
+                android:text="inputType = textMultiLine"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edit_text_multiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
